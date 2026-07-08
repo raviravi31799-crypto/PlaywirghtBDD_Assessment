@@ -1,0 +1,288 @@
+[
+  {
+    "description": "Description:This feature is to describe the login scenarios of the application",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;validlogin",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Validlogin",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 254567599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the register page of the application",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2869543099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clicks on the Login link",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 468586900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user enters valid \"jothi123456@gmail.com\" and \"joorao\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130116899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user clicks on LoginButton",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 767735799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user is able to see logout option on the application",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 351357000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 100947399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;validlogin",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Validlogin",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 396105199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the user is on the register page of the application",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2722788000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clicks on the Login link",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 449870199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user enters valid \"testing@gmail.com\" and \"joorao\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163293600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user clicks on LoginButton",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 437471199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user is able to see logout option on the application",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:23"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5013613499,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (D:\\PlaywrightBDD-Assessment\\node_modules\\@cucumber\\cucumber\\src\\time.ts:50:14)\n    at listOnTimeout (node:internal/timers:605:17)\n    at processTimers (node:internal/timers:541:7)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 254402200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login functionality",
+    "tags": [],
+    "uri": "src\\test\\features\\Login.feature"
+  },
+  {
+    "description": "Description:This feature describes the valid register functionality",
+    "elements": [
+      {
+        "description": "",
+        "id": "register-functionality-of-the-application;verify-the-valid-registration",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verify the valid registration",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 392376200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the new user launched the register page of the application",
+            "match": {
+              "location": "src\\test\\steps\\Registerstep.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2791389500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user enters the valid credentials",
+            "match": {
+              "location": "src\\test\\steps\\Registerstep.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 304902299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user clicks on the register button",
+            "match": {
+              "location": "src\\test\\steps\\Registerstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 911437900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user receives a success message on the application",
+            "match": {
+              "location": "src\\test\\steps\\Registerstep.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107291399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 72823599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "register-functionality-of-the-application",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Register functionality of the application",
+    "tags": [],
+    "uri": "src\\test\\features\\Register.feature"
+  }
+]

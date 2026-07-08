@@ -21,6 +21,7 @@ When('the user clicks on LoginButton', async function (this:CustomWorld) {
 });
 
 Then('the user is able to see logout option on the application', async function (this:CustomWorld) {
+  
   await this.loginpage.Logout();
 });
 

@@ -1,0 +1,103 @@
+[{$timestamp}] INFO -Launching browser
+[{$timestamp}] INFO -Starting scenario:Validlogin
+[{$timestamp}] INFO -clicked on login button
+[{$timestamp}] INFO -Logged in successfully
+[{$timestamp}] INFO -Scenario PASSED:Validlogin
+[{$timestamp}] INFO -Starting scenario:Validlogin
+[{$timestamp}] INFO -clicked on login button
+[{$timestamp}] ERROR -Screenshot FAILED:Validlogin
+[{$timestamp}] ERROR -Screenshot saved:reports/screenshots/1783515049942.png
+[{$timestamp}] INFO -closing browser
+[{$timestamp}] INFO -Launching browser
+[{$timestamp}] INFO -Starting scenario:Verify the valid registration
+[{$timestamp}] INFO -Scenario PASSED:Verify the valid registration
+[{$timestamp}] INFO -closing browser
+[{$timestamp}] INFO -Launching browser
+[{$timestamp}] INFO -Starting scenario:Verify the valid registration
+[{$timestamp}] ERROR -Screenshot FAILED:Verify the valid registration
+[{$timestamp}] ERROR -Screenshot saved:reports/screenshots/1783516292139.png
+[{$timestamp}] INFO -closing browser
+[{$timestamp}] INFO -Launching browser
+[{$timestamp}] INFO -Starting scenario:Verify the valid registration
+[{$timestamp}] INFO -Application launched successfully
+[{$timestamp}] ERROR -Screenshot FAILED:Verify the valid registration
+[{$timestamp}] ERROR -Screenshot saved:reports/screenshots/1783516378973.png
+[{$timestamp}] INFO -closing browser
+[{$timestamp}] INFO -Launching browser
+[{$timestamp}] INFO -Starting scenario:Verify the valid registration
+[{$timestamp}] INFO -Application launched successfully
+[{$timestamp}] INFO -Entered valid details
+[{$timestamp}] INFO -clicked on register button
+[{$timestamp}] ERROR -Screenshot FAILED:Verify the valid registration
+[{$timestamp}] ERROR -Screenshot saved:reports/screenshots/1783516430594.png
+[{$timestamp}] INFO -closing browser
+[{$timestamp}] INFO -Launching browser
+[{$timestamp}] INFO -Starting scenario:Verify the valid registration
+[{$timestamp}] INFO -Application launched successfully
+[{$timestamp}] INFO -Entered valid details
+[{$timestamp}] INFO -clicked on register button
+[{$timestamp}] ERROR -Screenshot FAILED:Verify the valid registration
+[{$timestamp}] ERROR -Screenshot saved:reports/screenshots/1783516470644.png
+[{$timestamp}] INFO -closing browser
+[{$timestamp}] INFO -Launching browser
+[{$timestamp}] INFO -Starting scenario:Verify the valid registration
+[{$timestamp}] INFO -Application launched successfully
+[{$timestamp}] INFO -Entered valid details
+[{$timestamp}] INFO -clicked on register button
+[{$timestamp}] ERROR -Screenshot FAILED:Verify the valid registration
+[{$timestamp}] ERROR -Screenshot saved:reports/screenshots/1783516700643.png
+[{$timestamp}] INFO -closing browser
+[{$timestamp}] INFO -Launching browser
+[{$timestamp}] INFO -Starting scenario:Verify the valid registration
+[{$timestamp}] INFO -Application launched successfully
+[{$timestamp}] INFO -Entered valid details
+[{$timestamp}] INFO -clicked on register button
+[{$timestamp}] ERROR -Screenshot FAILED:Verify the valid registration
+[{$timestamp}] ERROR -Screenshot saved:reports/screenshots/1783516817870.png
+[{$timestamp}] INFO -closing browser
+[{$timestamp}] INFO -Launching browser
+[{$timestamp}] INFO -Starting scenario:Verify the valid registration
+[{$timestamp}] INFO -Application launched successfully
+[{$timestamp}] INFO -Entered valid details
+[{$timestamp}] INFO -clicked on register button
+[{$timestamp}] ERROR -Screenshot FAILED:Verify the valid registration
+[{$timestamp}] ERROR -Screenshot saved:reports/screenshots/1783516843526.png
+[{$timestamp}] INFO -closing browser
+[{$timestamp}] INFO -Launching browser
+[{$timestamp}] INFO -Starting scenario:Verify the valid registration
+[{$timestamp}] INFO -Application launched successfully
+[{$timestamp}] INFO -Entered valid details
+[{$timestamp}] INFO -clicked on register button
+[{$timestamp}] ERROR -Screenshot FAILED:Verify the valid registration
+[{$timestamp}] ERROR -Screenshot saved:reports/screenshots/1783517012320.png
+[{$timestamp}] INFO -closing browser
+[{$timestamp}] INFO -Launching browser
+[{$timestamp}] INFO -Starting scenario:Verify the valid registration
+[{$timestamp}] INFO -Application launched successfully
+[{$timestamp}] INFO -Entered valid details
+[{$timestamp}] INFO -clicked on register button
+[{$timestamp}] INFO -Registered successfully
+[{$timestamp}] INFO -Scenario PASSED:Verify the valid registration
+[{$timestamp}] INFO -closing browser
+[{$timestamp}] INFO -Launching browser
+[{$timestamp}] INFO -Starting scenario:Validlogin
+[{$timestamp}] INFO -clicked on login button
+[{$timestamp}] INFO -Starting scenario:Validlogin
+[{$timestamp}] INFO -Starting scenario:Verify the valid registration
+[{$timestamp}] INFO -closing browser
+[{$timestamp}] INFO -Launching browser
+[{$timestamp}] INFO -Starting scenario:Validlogin
+[{$timestamp}] INFO -clicked on login button
+[{$timestamp}] INFO -Logged in successfully
+[{$timestamp}] INFO -Scenario PASSED:Validlogin
+[{$timestamp}] INFO -Starting scenario:Validlogin
+[{$timestamp}] INFO -clicked on login button
+[{$timestamp}] ERROR -Screenshot FAILED:Validlogin
+[{$timestamp}] ERROR -Screenshot saved:reports/screenshots/1783517777294.png
+[{$timestamp}] INFO -Starting scenario:Verify the valid registration
+[{$timestamp}] INFO -Application launched successfully
+[{$timestamp}] INFO -Entered valid details
+[{$timestamp}] INFO -clicked on register button
+[{$timestamp}] INFO -Registered successfully
+[{$timestamp}] INFO -Scenario PASSED:Verify the valid registration
+[{$timestamp}] INFO -closing browser

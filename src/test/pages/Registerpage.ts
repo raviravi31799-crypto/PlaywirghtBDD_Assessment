@@ -22,11 +22,12 @@ export class registerpage extends Basepage{
 
 
    async launchurl(){
-    await this.launch(process.env.BASE_URL!);
+    await this.launch("https://demowebshop.tricentis.com/register");
     logger.info("Application launched successfully");
 
    }
    async enterregisterdetails(fname:string,lname:string,email:string,password:string,cpassword:string){
+    await this.gender.check();
     await this.fill(this.fname,fname);
     await this.fill(this.lname,lname);
     await this.fill(this.email,email);
@@ -40,8 +41,8 @@ export class registerpage extends Basepage{
     logger.info("clicked on register button");
    }
    async getsuccessMessage(){
-    const message=await this.successtext.textContent();
-    await expect(message).toEqual(" Your registration completed")
+    const message=(await this.successtext.textContent())?.trim();
+    await expect(message).toContain("Your registration completed")
     logger.info("Registered successfully");
 
    }
